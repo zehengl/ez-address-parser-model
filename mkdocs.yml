@@ -1,0 +1,38 @@
+site_name: ez-address-parser-model
+nav:
+  - Home: index.md
+theme:
+  name: material
+  favicon: https://cdn2.iconfinder.com/data/icons/seo-and-website/100/SEO_search_word-512.png
+  logo: https://cdn2.iconfinder.com/data/icons/seo-and-website/100/SEO_search_word-512.png
+  font:
+    text: Roboto
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+  features:
+    - header.autohide
+    - navigation.top
+plugins:
+  - search
+  - tags
+  - glightbox:
+      auto_caption: true
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      type: timeago
+      enable_creation_date: true
+markdown_extensions:
+  - attr_list
+  - md_in_html
