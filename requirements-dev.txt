@@ -1,5 +1,5 @@
 -r requirements.txt
-jupyterlab==4.4.3
+jupyterlab==4.4.4
 mkdocs-git-revision-date-localized-plugin==1.4.7
 mkdocs-glightbox==0.4.0
 mkdocs-material==9.6.14
